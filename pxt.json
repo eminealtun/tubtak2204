@@ -1,0 +1,33 @@
+{
+    "name": "tubıtak2204",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.4.6",
+        "servo": "*",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0",
+        "pxt-mfrc522": "github:joy-it/pxt-rfid-mfrc522#1.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.25",
+        "tag": "v6.0.25",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/f72136f1d01face3fc76caffa5343af1db369a37",
+        "target": "7.0.51",
+        "pxt": "9.0.15",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
