@@ -1,7 +1,7 @@
 let miktar = 0
 let engel = 0
 I2C_LCD1602.LcdInit(63)
-let sayı = randint(5, 20)
+let sayı = randint(0, 30)
 I2C_LCD1602.ShowString("MERHABA", 5, 0)
 I2C_LCD1602.ShowString("BEN DONUSTRATOR", 0, 1)
 basic.pause(2000)
